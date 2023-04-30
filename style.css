@@ -1,0 +1,135 @@
+/* ============= descendent combinators =========== */
+/* span#div-wala-span{
+    color: aqua;
+} */
+
+/* ============ child combinator ========== */
+/* ul>li{
+    color: red;
+} */
+
+/* ================= immediate siblings ======== */
+/* li+li{
+    color: red;
+} */
+
+/* ========== general siblings ============== */
+
+/* li#select~li{
+    color: red;
+} */
+
+/* ol li:first-child{
+
+    background-color: black;
+}
+
+ol li:last-child{
+
+     background-color: aqua;
+
+} */
+
+/* ol li:nth-child(2n+3){
+
+    background-color: blue;
+} */
+
+/* ===================pseudo element============================== */
+
+/* ul li::before{
+
+    content:"\1F4DE"
+}
+
+ul:li::after{
+
+    content:"\1F4DE"
+} */
+
+/* .box {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(207, 232, 220);
+    padding: 1em;
+  }
+  .box{
+
+     
+
+
+  }
+ */
+
+ /* ==========float & clear css====================== */
+
+ /* body{
+
+    margin:0px;
+    
+ }
+
+ .image{
+
+   height:150px;
+   width:150px;
+   border:1rem solid skyblue;
+
+   float:left;
+   margin:5px;
+
+ }
+ .cleared{
+
+   clear:left;
+
+ } */
+
+ /* ===========position css=================== */
+
+ /* .box-set,.box{
+
+border-radius:2px solid black;
+ } */
+
+ /* .box-set{
+    background-color:yellow;
+    
+ }
+
+ .box{
+    background-color: aqua;
+    width:80px;
+    height:80px;
+    margin:15px;
+    padding:15px;
+
+     position:sticky;
+    
+ }  */
+ /* .box-1{
+    top: 110px;
+ }
+  .box-3{
+
+   top: 110px;
+ }  */
+/* .box-2{
+
+     bottom: 10px;
+} */
+
+/* .box-4{
+    top:10px;
+}
+.box-2{
+
+ bottom:10px;
+}
+.box-3{
+
+    right:10px;
+}
+ */
+
